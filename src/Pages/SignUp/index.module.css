@@ -1,0 +1,168 @@
+.flex{
+
+    border-radius: 20px;
+    display: flex;
+
+    height: 80vh;
+
+    background-color: white;
+
+    /* margin-top: 40px; */
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+
+
+    width: 40%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+   background-color: rgb(80, 56, 238);
+
+}
+
+.right{
+
+    width: 70%;;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+
+
+.container{
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+
+
+.heading{
+    font-size: large;
+    font-weight: bold;
+}
+
+.subheading{
+    font-size: small;
+    margin-top: 10px;
+    color: #565555;
+    border-bottom: 1px solid #ebe8e8;
+    padding-bottom: 20px;
+}
+
+/* styles.css */
+
+/* Form container */
+.form {
+  margin-top: 50px;
+}
+
+/* Form label */
+.formLabel {
+    display: block;
+    margin-bottom: 5px;
+    font-size: small;
+    color: #565555;
+}
+
+/* Form input */
+.formInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ebe8e8;
+    
+    font-weight: bold;
+    box-sizing: border-box;
+ 
+
+}
+
+/* Form submit button */
+.formSubmit {
+    background-color: #594cef;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formSubmit:hover {
+    background-color: #2b97f0;
+}
+
+/* Optional: Center align submit button */
+.formSubmitContainer {
+    text-align: center;
+}
+
+
+.flexProfile{
+    display: flex;
+
+}
+
+
+.upload{
+
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid rgb(211, 209, 209);
+
+}
+
+.uploadBtn{
+    background-color: #ffffff;
+    
+    border: 1px solid rgb(112, 112, 240);
+    padding: 10px;
+    color: rgb(81, 81, 254);
+  width: 100px;
+  margin-right: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+ 
+}
+
+
+.uploadheading{
+font-size: smaller;
+color: #565555;
+font-weight: bold;
+}
+
+.uploadSubheading{
+    font-size:x-small;
+    color: #565555;
+}
+
+
+
+.link {
+
+    margin-top: 50px;
+    display: inline;
+    text-decoration: none;
+    font-size: smaller;
+
+}

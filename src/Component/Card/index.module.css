@@ -1,0 +1,129 @@
+.card{
+
+       width: 100%;
+        position: relative;
+        padding: 10px;
+        padding-left: 15px;
+        /* height: 170px; */
+        height:22vh;
+        background-color: white;
+        border-radius: 20px;
+        margin-left: 10px;
+        position: relative;
+
+}
+
+.cardDark {
+
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    padding-left: 15px;
+    color: white;
+    height: 170px;
+    background-color: #242424;
+    border-radius: 20px;
+    color: white;
+    margin-left: 10px;
+    position: relative;
+
+}
+
+.title{
+
+    font-size: small;
+        font-weight: 500;
+        color: #595a5c;
+        
+}
+
+.content{
+
+
+    margin-top: 20px;
+        text-align: center;
+        font-weight: 600;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+}
+
+.card:nth-child(2)  .textContent{
+    font-size:2rem;
+}
+
+
+.textContent{
+
+
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.card:nth-child(1){
+    margin-left:0;
+}
+
+
+.ProfileCard{
+
+    width: 100%;
+    /* display:flex; */
+    /* align-items: center; */
+        position: relative;
+        padding: 20px;
+        padding-left: 15px;
+        height: 170px;
+        background-color: white;
+        border-radius: 20px;
+        margin-right: 10px;
+
+}
+
+.ProfileCardDark {
+
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    padding-left: 15px;
+    height: 170px;
+    background-color: #242424;
+    color: white;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+
+
+
+
+.ProfileCardTitle{
+    font-weight: bold;
+    font-size: 1.7rem;
+    /* margin-top: 20px; */
+    color: #595a5c;
+
+}
+
+.ProfileCardContent {
+    font-size: smaller;
+    margin-top: 10px;
+}
+
+
+.doctorProfilePhoto {
+
+    border-radius: 100%;
+    position:absolute;
+    left: 85%;
+    width: 100px;
+    background-color: black;
+    height: 100px;
+}
