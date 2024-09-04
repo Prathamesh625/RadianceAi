@@ -1,160 +1,131 @@
 .Flex {
-
-    display: flex;
-    width: 100%;
-    margin-top: 30px;
-
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .dashboard {
-
-    /* height: 97vh; */
-    width: 100%;
-    /* background-color:white; */
-    margin-left: 10px;
-    margin-right: 10px;
-
+  /* height: 97vh; */
+  width: 100%;
+  /* background-color:white; */
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .flexSection {
-    display: flex;
-    margin-top: 10px;
+  display: flex;
+  margin-top: 10px;
 }
 
 .LeftSection {
-    width: 100%;
-    margin-right: 10px;
-    /* border-radius: 15px; */
+  width: 100%;
+  margin-right: 10px;
+  /* border-radius: 15px; */
 
-    gap: 10px;
-    overflow-y: scroll;
-    height: 85vh;
-
+  gap: 10px;
+  overflow-y: scroll;
+  height: 85vh;
 }
 
 .LeftSection::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .RightSection {
-    width: 50%;
-    border-radius: 15px;
-    background-color: white;
-
+  width: 50%;
+  border-radius: 15px;
+  background-color: white;
 }
 
-
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-.editor{
-
-    background-color: white; 
-    padding: 30px;
-    min-height: 100vh;
-   
- 
+.editor {
+  background-color: white;
+  padding: 30px;
+  min-height: 100vh;
 }
 
-
-.problem{
-
-    margin-top: 20px;
+.problem {
+  margin-top: 20px;
 }
 
-
-.flex{
-    display: flex;
-    width: 100%;
-    margin-top: 20px;
-    justify-content: space-between;
+.flex {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: space-between;
 }
 
-.width{
-
-    width: 50%;
-    margin-right: 20px;
-    word-break:break-all;
-
+.width {
+  width: 50%;
+  margin-right: 20px;
+  word-break: break-all;
 }
 
-
-
-.imageDiv{
-
-padding-left: 5%;
-padding-right:5%;
-
-
+.imageDiv {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.label{
-    margin-bottom: 20px;
+.label {
+  margin-bottom: 20px;
 }
 
-.prescription{
-    margin-top: 10px;
+.prescription {
+  margin-top: 10px;
 }
 
-.attachments{
-    margin-top: 20px;
+.attachments {
+  margin-top: 20px;
 }
 
-
-.editDocument{
-    padding: 20px;
+.editDocument {
+  padding: 20px;
 }
 
 .title {
-    font-size: medium;
-
+  font-size: medium;
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
 }
 
-.input{
-    border-bottom: 1px solid rgb(156, 152, 152);
-    margin-top: 10px;
-    padding: 10px;
-    outline: none;
- 
+.input {
+  border-bottom: 1px solid rgb(156, 152, 152);
+  margin-top: 10px;
+  padding: 10px;
+  outline: none;
 }
 
-.textarea{
-    border-bottom: 1px solid rgb(207, 205, 205);
-    margin-top: 10px;
-    padding: 10px;
-    resize: none;
-    outline: none;
-
+.textarea {
+  border-bottom: 1px solid rgb(207, 205, 205);
+  margin-top: 10px;
+  padding: 10px;
+  resize: none;
+  outline: none;
 }
 
-.formLabel{
-margin-top: 10px;
-font-size: smaller;
+.formLabel {
+  margin-top: 10px;
+  font-size: smaller;
 }
 
-
-.saveBtn{
-    padding: 10px;
-    border: none;
-    background-color: rgb(95, 95, 247);
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    margin-top: 10px;
-
+.saveBtn {
+  padding: 10px;
+  border: none;
+  background-color: rgb(95, 95, 247);
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
-
-.images{
-
-    width: 300px;
-    margin-left: 10px;
+.images {
+  width: 300px;
+  margin-left: 10px;
 }

@@ -1,69 +1,60 @@
-import style from "./index.module.css"
-import { useEffect, useState } from "react"
-import axios from "axios"
-import Item from "./Item"
-import { changeAppointmentStatus, getAppointmentList, getAppointmentsByStatus } from "../../Api"
+import React, { useEffect, useState } from 'react';
+import style from './index.module.css';
+import Item from './Item';
+import { changeAppointmentStatus, getAppointmentsByStatus } from '../../Api';
 
-
-
-const UpcomingAppointment: React.FC = (props) => {
-
-    const { update, setUpdate } = props;
-
-    const [appointment, setAppointment] = useState()
-
-    const [pendingAppointment, setPendingAppointment] = useState()
-
-    const [order ,setOrder] = useState([0,1,2])
-    
-    
-    
-    useEffect(() => {
-        const getAppointments = async () => {
-
-            const appointments = await getAppointmentsByStatus('pending' ,3)
-            console.log("data", appointments.data.appointments)
-            setPendingAppointment(appointments.data.appointments)
-        
-        }
-        
-        getAppointments()
-        
-        
-    }, [update])
-    
-
-
-     const handleStatusUpdate = async (itemId) => {
-             
-        const status = await changeAppointmentStatus(itemId)
-
-        setUpdate(update+1)
-    
-  }
-
-
-
-
-
-    const list = pendingAppointment && pendingAppointment.map(appoinments => {
-        return <Item
-            person={appoinments.name}
-            date={appoinments.date}
-            time={appoinments.time}
-            id={appoinments.id}
-            handleStatusUpdate={handleStatusUpdate}
-
-        />
-    })
-    
-return (
-    <div className={style.UpcomingAppointment}>
-        <p className={style.title}>Upcoming Appoinments</p>
-        
-        <div className={style.list}>{list}</div>
-    </div>
-  )
+interface Appointment {
+  id: string;
+  name: string;
+  date: string;
+  time: string;
 }
 
-export default UpcomingAppointment
+const UpcomingAppointment: React.FC = () => {
+  const [pendingAppointments, setPendingAppointments] = useState<Appointment[]>(
+    []
+  );
+  const [update, setUpdate] = useState(0); // Track updates to refetch appointments
+
+  useEffect(() => {
+    const getAppointments = async () => {
+      try {
+        const appointments = await getAppointmentsByStatus('pending', 3);
+        setPendingAppointments(appointments.data.appointments);
+      } catch (error) {
+        console.error('Error fetching appointments', error);
+      }
+    };
+
+    getAppointments();
+  }, [update]); // Dependency array includes `update` to refetch on status change
+
+  const handleStatusUpdate = async (itemId: string) => {
+    try {
+      await changeAppointmentStatus(itemId);
+      setUpdate((prev) => prev + 1); // Trigger a re-fetch by updating state
+    } catch (error) {
+      console.error('Error updating appointment status', error);
+    }
+  };
+
+  const list = pendingAppointments.map((appointment) => (
+    <Item
+      key={appointment.id}
+      person={appointment.name}
+      date={appointment.date}
+      time={appointment.time}
+      id={appointment.id}
+      handleStatusUpdate={handleStatusUpdate}
+    />
+  ));
+
+  return (
+    <div className={style.UpcomingAppointment}>
+      <p className={style.title}>Upcoming Appointments</p>
+      <div className={style.list}>{list}</div>
+    </div>
+  );
+};
+
+export default UpcomingAppointment;

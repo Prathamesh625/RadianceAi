@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState } from 'react';
 
-import { Slider , InputNumber ,Col , Row ,Typography} from "antd";
+import { Slider, InputNumber, Col, Row, Typography } from 'antd';
 
 export const IntegerStep = () => {
   const [inputValue, setInputValue] = useState(1);
@@ -8,8 +8,8 @@ export const IntegerStep = () => {
     setInputValue(newValue);
   };
   return (
-      <Row align="middle">
-          <Typography className='spatial-filters'>Sharpness</Typography>
+    <Row align="middle">
+      <Typography className="spatial-filters">Sharpness</Typography>
       <Col span={12}>
         <Slider
           min={1}
