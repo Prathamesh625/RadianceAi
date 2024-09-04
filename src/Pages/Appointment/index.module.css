@@ -1,173 +1,138 @@
 .Flex {
-
-    display: flex;
-    width: 100%;
-    margin-top: 30px;
-
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .dashboard {
-
-    /* height: 97vh; */
-    width: 100%;
-    /* background-color:white; */
-    margin-left: 10px;
-    margin-right: 10px;
-
+  /* height: 97vh; */
+  width: 100%;
+  /* background-color:white; */
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-
-
-
 .flexSection {
-    display: flex;
-    margin-top: 10px;
+  display: flex;
+  margin-top: 10px;
 }
 
 .LeftSection {
-    width: 100%;
-    margin-right: 10px;
-    border-radius: 15px;
-    /* background-color: white; */
-    /* height: 70vh; */
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 15px;
+  /* background-color: white; */
+  /* height: 70vh; */
 }
 
 .RightSection {
-    width: 40%;
-    border-radius: 15px;
-    /* background-color: white; */
-    /* height: 70vh; */
+  width: 40%;
+  border-radius: 15px;
+  /* background-color: white; */
+  /* height: 70vh; */
 }
 
-
-.Table{
-   
-        /* make the table scrollable if height is more than 200 px  */
-        max-height: 70vh;
-        overflow: auto;
+.Table {
+  /* make the table scrollable if height is more than 200 px  */
+  max-height: 70vh;
+  overflow: auto;
 }
 
-
-
-
-thead{
-
-    position:sticky;
-    top:0px
+thead {
+  position: sticky;
+  top: 0px;
 }
-
 
 .patient_table {
-    width: 100%;
-        border-collapse: separate;
-        border-spacing: 0 3px;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 3px;
 }
 
-.patient_table td{
-
-padding: 15px;
-    background-color: white;
-    border: none;
-    font-size: smaller;
+.patient_table td {
+  padding: 15px;
+  background-color: white;
+  border: none;
+  font-size: smaller;
 }
 
-.patient_table th{
-
-        text-align: left;
-        font-size: smaller;
-        padding: 15px;
-        border: none;
-        color: #7d7d7e;
-        background-color: white;
+.patient_table th {
+  text-align: left;
+  font-size: smaller;
+  padding: 15px;
+  border: none;
+  color: #7d7d7e;
+  background-color: white;
 }
 
-
-
-.search_box{
-    padding: 10px;
-        display: flex;
-        background-color: white;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 7px;
-        border-radius: 10px;
+.search_box {
+  padding: 10px;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+  border-radius: 10px;
 }
 
 .find_patient {
-    width: 300px;
-    padding: 10px;
-    background-color: #edf0f7;
-    border-radius: 10px;
-    border: none;
-
+  width: 300px;
+  padding: 10px;
+  background-color: #edf0f7;
+  border-radius: 10px;
+  border: none;
 }
-
-
 
 th:nth-child(1) {
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    background-color: white;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: white;
 }
 
-
 th:nth-child(7) {
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    background-color: white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
 }
 
 td:nth-child(1) {
-
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 td:nth-child(7) {
-
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-
-
-.AddAppointment{
-
-  
-        /* height: 300px; */
-        background-color: white;
-        /* margin-left: 10px; */
-        border-radius: 20px;
-        padding: 20px;
-
-
+.AddAppointment {
+  /* height: 300px; */
+  background-color: white;
+  /* margin-left: 10px; */
+  border-radius: 20px;
+  padding: 20px;
 }
 
-
-
-.appointmentInput{
-
-    margin-top: 10px;
-        padding: 10px;
-        width: 100%;
-        border-radius: 10px;
-        background-color: #edf0f7;
-        border: none
-
+.appointmentInput {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #edf0f7;
+  border: none;
 }
 
 .appointmentInput:nth-child(2) {
-    margin-top: 20px;
-
+  margin-top: 20px;
 }
 
-.appointmentInput[type="submit"] {
-    margin-top: 10px;
-    padding: 10px;
-    width: 100%;
-    border-radius: 10px;
-    background-color: #5174f3;
-    border: none;
-    color: white;
-    font-weight: 500
+.appointmentInput[type='submit'] {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #5174f3;
+  border: none;
+  color: white;
+  font-weight: 500;
 }

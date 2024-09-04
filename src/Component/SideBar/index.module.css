@@ -1,236 +1,189 @@
-.sidebar{
-
-        background-color: rgb(12, 8, 44);
-         /* background-image: linear-gradient(120deg, rgb(94, 94, 241), rgb(91, 91, 198));  */
-         background-color: rgb(94, 94, 241);
-        padding: 20px;
-        color: white;
-        margin-top: 20px;
-        border-radius: 20px;
-        height: 60vh;
-        min-width: 200px;
-        box-shadow:2px #242424;
-    
-      
+.sidebar {
+  background-color: rgb(12, 8, 44);
+  /* background-image: linear-gradient(120deg, rgb(94, 94, 241), rgb(91, 91, 198));  */
+  background-color: rgb(94, 94, 241);
+  padding: 20px;
+  color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  height: 60vh;
+  min-width: 200px;
+  box-shadow: 2px #242424;
 }
 
-@media screen and (max-width: 900px){
-    .sidebar{
-        display: none;
-    }
+@media screen and (max-width: 900px) {
+  .sidebar {
+    display: none;
+  }
 
-        .setting {
-    
-            display:none;
-    
-        }
+  .setting {
+    display: none;
+  }
 
-                .appname {
-        
-        
-                  display: none;
-        
-                }
+  .appname {
+    display: none;
+  }
 
-                                .title {
-                                   display: none;
-                                }
-
+  .title {
+    display: none;
+  }
 }
-
 
 @font-face {
-    font-family: FontFamily;
-    src: url('../../assets/Vonique64Bold-AlnA.ttf') format('opentype');
-    /* font-weight: bold; */
-    
-    /* font-style: normal; */
+  font-family: FontFamily;
+  src: url('../../assets/Vonique64Bold-AlnA.ttf') format('opentype');
+  /* font-weight: bold; */
+
+  /* font-style: normal; */
 }
 
 .sidebarDark {
+  background-color: #242424;
 
-    background-color: #242424;
-
-    padding: 20px;
-    color: white;
-    margin-top: 20px;
-    border-radius: 10px;
-    height: 60vh;
-    min-width: 200px;
-
+  padding: 20px;
+  color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 60vh;
+  min-width: 200px;
 }
 
+.routeName {
+  /* font-size: medium; */
 
-
-
-.routeName{
-    /* font-size: medium; */
-
-    margin-left: 10px;
-
+  margin-left: 10px;
 }
 
-
-.sidebarlist{
-
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    width: 100%;
-    cursor: pointer;
-    font-size: smaller;
-    
-
+.sidebarlist {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  font-size: smaller;
 }
 
 .sidebarListHighlight {
-
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    width: 100%;
-    cursor: pointer;
-    background-color: white;
-    font-size: smaller;
- 
-
-
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  background-color: white;
+  font-size: smaller;
 }
 
-.sidebarlist:hover{
-
-    background-color: white;
-    color: black;
-    border-radius: 10px;
-    transition: 500ms ease-in-out;
-  
-
+.sidebarlist:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  transition: 500ms ease-in-out;
 }
 
-.settinglist{
-       display: flex;
-        align-items: center;
-        /* padding: 10px; */
-        padding-left: 10px;
+.settinglist {
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+  padding-left: 10px;
 
-        width: 100%;
-        cursor: pointer;
-        background-color: white;
-        font-size: smaller;
+  width: 100%;
+  cursor: pointer;
+  background-color: white;
+  font-size: smaller;
 }
 
 .settinglist:hover {
-            background-color: rgb(94, 94, 241);
-           color: white;
+  background-color: rgb(94, 94, 241);
+  color: white;
 
-                border-radius: 10px;
-                transition: 500ms ease-in-out;
+  border-radius: 10px;
+  transition: 500ms ease-in-out;
 }
 
+.appname {
+  font-family: FontFamily;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
 
-.appname{
-
-
-font-family: FontFamily;
-   font-size: 1.5rem;
-   font-weight:800;
-   text-align: center;
-  
-   margin-top: 10px;
-
+  margin-top: 10px;
 }
 
-
-.setting{
-
-        padding: 20px;
-        background-color: rgb(177, 231, 224);
-        height: 140px;
-        text-align: center;
-        margin-top: 10px;
-        border-radius: 20px;
-        color: black;
-        background-color: white;
-
+.setting {
+  padding: 20px;
+  background-color: rgb(177, 231, 224);
+  height: 140px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
 }
 
 .settingDark {
-
-    padding: 10px;
-    background-color: rgb(177, 231, 224);
-    text-align: center;
-    margin-top: 10px;
-    border-radius: 10px;
-    color:white;
-    background-color: #242424;
-
+  padding: 10px;
+  background-color: rgb(177, 231, 224);
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: #242424;
 }
 
-      
-
-
-
-.setting p{
-    padding:10px
+.setting p {
+  padding: 10px;
 }
 
-
-.title{
-    text-align: center;
-    margin-top: 10px;
-    font-size: smaller;
+.title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: smaller;
 }
 
-
-
-.signoutBtn{
-    padding: 10px;
-    background-color: rgb(83, 83, 249);
-    font-weight:500;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-    border: none;
-    margin-left: 10px;
+.signoutBtn {
+  padding: 10px;
+  background-color: rgb(83, 83, 249);
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  margin-left: 10px;
 }
 
 .cancelBtn {
-    padding: 10px;
-    /* background-color: rgb(83, 83, 249); */
-    font-weight:500;
-    /* color: rgb(46, 82, 225); */
-    border-radius: 5px;
-    text-align: center;
-    border: 1px solid rgb(227, 227, 238);
-    border: none;
+  padding: 10px;
+  /* background-color: rgb(83, 83, 249); */
+  font-weight: 500;
+  /* color: rgb(46, 82, 225); */
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid rgb(227, 227, 238);
+  border: none;
 }
 
-
-.premium{
-    padding: 10px;
-    background-color: rgb(122, 110, 227);
-    min-height: 100px;
-    margin-top: 70px;
-    border-radius: 15px;
-    max-width: 200px;
-    /* color: black; */
-
+.premium {
+  padding: 10px;
+  background-color: rgb(122, 110, 227);
+  min-height: 100px;
+  margin-top: 70px;
+  border-radius: 15px;
+  max-width: 200px;
+  /* color: black; */
 }
 
-.premium p{
-    padding: 10px;
-    font-size: smaller;
+.premium p {
+  padding: 10px;
+  font-size: smaller;
 }
 
-.premium button{
-
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    background-color:white;
-    color:black;
-
+.premium button {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  color: black;
 }

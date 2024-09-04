@@ -1,10 +1,8 @@
-import React from 'react'
+import React from 'react';
 import { useState } from 'react';
 
 export const AddressForm = () => {
-
-
-    const [addressData, setAddressData] = useState({
+  const [addressData, setAddressData] = useState({
     address: '',
     state: '',
     city: '',
@@ -20,29 +18,47 @@ export const AddressForm = () => {
     e.preventDefault();
     // Add your submission logic here
     console.log(addressData);
-    };
-    
-
+  };
 
   return (
-       <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <label>
         Address:
-        <input type="text" name="address" value={addressData.address} onChange={handleChange} />
+        <input
+          type="text"
+          name="address"
+          value={addressData.address}
+          onChange={handleChange}
+        />
       </label>
       <label>
         State:
-        <input type="text" name="state" value={addressData.state} onChange={handleChange} />
+        <input
+          type="text"
+          name="state"
+          value={addressData.state}
+          onChange={handleChange}
+        />
       </label>
       <label>
         City:
-        <input type="text" name="city" value={addressData.city} onChange={handleChange} />
+        <input
+          type="text"
+          name="city"
+          value={addressData.city}
+          onChange={handleChange}
+        />
       </label>
       <label>
         Pincode:
-        <input type="text" name="pincode" value={addressData.pincode} onChange={handleChange} />
+        <input
+          type="text"
+          name="pincode"
+          value={addressData.pincode}
+          onChange={handleChange}
+        />
       </label>
       <button type="submit">Submit</button>
     </form>
-  )
-}
+  );
+};

@@ -1,129 +1,105 @@
-.Header{
-    padding: 10px;
-    background-color: white;
-    border-radius: 15px;
-    display: flex;
-    position: relative;
-    align-items: center;
-    /* justify-content: space-around; */
+.Header {
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  /* justify-content: space-around; */
 }
 
 .HeaderDark {
-    padding: 10px;
-    background-color: #242424;
-    border-radius: 15px;
-    display: flex;
-    color: white;
-    position: relative;
-    align-items: center;
-    justify-content: space-around;
+  padding: 10px;
+  background-color: #242424;
+  border-radius: 15px;
+  display: flex;
+  color: white;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .input {
- padding: 10px;
- border-radius: 10px;
- margin-left: 10px;
- text-indent: 40px;
-        /* min-width:300px; */
-        /* width: 50%; */
-        width: 100%;
-    background-color: #edf0f7;
-
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  text-indent: 40px;
+  /* min-width:300px; */
+  /* width: 50%; */
+  width: 100%;
+  background-color: #edf0f7;
 }
 
-.inputDark{
-padding: 10px;
-    border-radius: 10px;
-    margin-left: 10px;
-    background-color: #3b3a3a;
-    width: 90%;
-  
-
+.inputDark {
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: #3b3a3a;
+  width: 90%;
 }
 
-
-.search{
-
-    padding: 10px;
-        border-radius: 10px;
-    background-color: #edf0f7;
+.search {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #edf0f7;
   outline: none;
-        /* min-width: 500px; */
-        width: 100%;
- /* text-indent: 50px; */
-
+  /* min-width: 500px; */
+  width: 100%;
+  /* text-indent: 50px; */
 }
 
 .searchDark {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #3b3a3a;
 
-    padding: 10px;
-    border-radius: 10px;
-        background-color: #3b3a3a;
-
-    min-width: 500px;
-
+  min-width: 500px;
 }
 
-.searchIcon{
-    position:absolute;
-    right: 96%;
+.searchIcon {
+  position: absolute;
+  right: 96%;
 }
 
 .Icons {
-  
-    margin-left: 10px;
-    
+  margin-left: 10px;
 }
 
-.Icons:nth-child(5){
-    font-size: 2rem;
+.Icons:nth-child(5) {
+  font-size: 2rem;
 }
 
-
-
-.findDeviceBtn{
-
-
-        padding: 10px;
-        color: white;
-        background-color: rgba(67, 67, 232, 0.667);
-        border: none;
-        border-radius: 10px;
-        font-weight: 600;
-        width: 200px;
-        border-radius: 10px;
-        /* margin-left: 10px; */
-     
-
+.findDeviceBtn {
+  padding: 10px;
+  color: white;
+  background-color: rgba(67, 67, 232, 0.667);
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  width: 200px;
+  border-radius: 10px;
+  /* margin-left: 10px; */
 }
 
 .findDeviceBtn:hover {
-
   transform: scale(1.1);
-
-
 }
 
-
-.notification{
-/* position: relative; */
-/* top:10px */
-
+.notification {
+  /* position: relative; */
+  /* top:10px */
 }
 
-.tag{
+.tag {
+  background-color: red;
+  padding: 2px;
+  width: 10px;
+  position: relative;
 
-    background-color: red;
-    padding: 2px;
-     width: 10px;
-    position: relative;
-    
-    top:-10px;
-    left: -5px;
-    font-size: xx-small;
-    color: white;
-    border-radius: 50px;
-    text-align: center;
-
-
+  top: -10px;
+  left: -5px;
+  font-size: xx-small;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
 }

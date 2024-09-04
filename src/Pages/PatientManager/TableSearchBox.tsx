@@ -1,23 +1,22 @@
-import React from 'react'
-import style from "./index.module.css"
+import React from 'react';
+import style from './index.module.css';
 
-interface ITableSearchPropsType{
-  filter: string,
-  setFilter:()=>void
+interface ITableSearchPropsType {
+  filter: string;
+  setFilter: () => void;
 }
 
-export const TableSearchBox: React.FC = ({setFilter ,filter}) => {
-  
-
+export const TableSearchBox: React.FC = ({ setFilter, filter }) => {
   return (
-      <div className={style.search_box}>
-          <input className={style.find_patient}
-              type="text"
-        placeholder='Search for patients...'
+    <div className={style.search_box}>
+      <input
+        className={style.find_patient}
+        type="text"
+        placeholder="Search for patients..."
         onChange={(e) => setFilter(e.target.value)}
         value={filter}
-          />
-        {/* <p className='records'>20</p> */}
+      />
+      {/* <p className='records'>20</p> */}
     </div>
-  )
-}
+  );
+};

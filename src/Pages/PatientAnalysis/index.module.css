@@ -1,204 +1,159 @@
 .Flex {
-
-    display: flex;
-    width: 100%;
-    margin-top: 30px;
-  
-
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
 }
-
 
 .FlexDark {
-
-    display: flex;
-    width: 100%;
-    margin-top: 40px;
-    background-color: #242424;
-
-
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  background-color: #242424;
 }
 
-
-
-
 .dashboard {
-
-    /* height: 97vh; */
-    width: 100%;
-    /* background-color:white; */
-    margin-left: 10px;
-    margin-right: 10px;
-   
-
+  /* height: 97vh; */
+  width: 100%;
+  /* background-color:white; */
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .flexSection {
-    display: flex;
-    margin-top: 10px;
+  display: flex;
+  margin-top: 10px;
 }
 
 .LeftSection {
-    width: 100%;
-    margin-right: 10px;
-    border-radius: 15px;
-   
-    height: 80vh;
-    /* background-color: white; */
-    /* height: 70vh; */
+  width: 100%;
+  margin-right: 10px;
+  border-radius: 15px;
+
+  height: 80vh;
+  /* background-color: white; */
+  /* height: 70vh; */
 }
 
-.LeftSection::-webkit-scrollbar{
-    display: none;
+.LeftSection::-webkit-scrollbar {
+  display: none;
 }
 
 .RightSection {
-    width: 50%;
-    border-radius: 15px;
-
+  width: 50%;
+  border-radius: 15px;
 }
 
-
-.gridView{
-    display: grid;
-        grid-template-columns: auto auto;
-        gap: 10px;
-        overflow-y: scroll;
-        max-height: 70vh;
-        margin-top: 10px;
-    
+.gridView {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  overflow-y: scroll;
+  max-height: 70vh;
+  margin-top: 10px;
 }
 
-
-
-
-.patientName{
-    padding: 30px;
-    text-align: center;
-    background-color: white;
-    border-radius: 20px;
-    font-weight: 700;
-    font-size:large;
-  
-
+.patientName {
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: large;
 }
-
 
 .patientNameDark {
-    padding: 30px;
-    text-align: center;
-    background-color: #242424;
-    border-radius: 20px;
-    font-weight: 700;
-    font-size: large;
-
-
+  padding: 30px;
+  text-align: center;
+  background-color: #242424;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: large;
 }
 
-       
-
-.imageCard{
-        width: 100%;
-        padding: 10px;
-        padding-bottom: 30px;
-        justify-content: center;    
-        text-align: center;
-        border-radius: 20px;
-        background-color: white;
-    
+.imageCard {
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
 }
 
 .imageCardDark {
-    width: 100%;
-    padding: 10px;
-    padding-bottom: 30px;
-    justify-content: center;
-    text-align: center;
-    border-radius: 20px;
-    background-color: #242424;
-
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #242424;
 }
 
-
-
-
-
-.imageCardTitle{
-    margin-bottom: 10px;
-    font-size: small;
+.imageCardTitle {
+  margin-bottom: 10px;
+  font-size: small;
 }
 
-
-.createReport{
-        position: relative;
-        margin-top: 10px;
-        height: 180px;
-        background-color: white;
-        border-radius: 20px;
-        padding: 20px;
-      
+.createReport {
+  position: relative;
+  margin-top: 10px;
+  height: 180px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .createReportDark {
-    position: relative;
-    margin-top: 10px;
-    height: 180px;
-background-color: #242424;
-    border-radius: 20px;
-    padding: 20px;
-
+  position: relative;
+  margin-top: 10px;
+  height: 180px;
+  background-color: #242424;
+  border-radius: 20px;
+  padding: 20px;
 }
 
-
-
-.createReportTitle{
-
-        font-size: medium;
-        font-weight: 400;
-        color: rgb(118, 114, 114);
+.createReportTitle {
+  font-size: medium;
+  font-weight: 400;
+  color: rgb(118, 114, 114);
 }
 
-.sub_title{
-
-        font-size: small;
-        font-weight: 400;
-        color: rgb(160, 155, 155);
-        margin-top: 20px
+.sub_title {
+  font-size: small;
+  font-weight: 400;
+  color: rgb(160, 155, 155);
+  margin-top: 20px;
 }
 
-.createReportBtn{
-    padding: 10px;
-    display: flex;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: rgb(89, 89, 210);
-    text-align: center;
-    border-radius: 15px;
-    border: none;
-    color: white;
-    font-size: small;
-    font-weight: 500;
+.createReportBtn {
+  padding: 10px;
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(89, 89, 210);
+  text-align: center;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: small;
+  font-weight: 500;
 }
 
-
-.addImageBtn{
- 
-/* right: 10px; */
-    background-color: rgb(89, 89, 210);
-        text-align: center;
-        border-radius: 15px;
-        border: none;
-        color: white;
-        font-size: small;
-        font-weight: 500;
-    padding: 10px;
-
-
+.addImageBtn {
+  /* right: 10px; */
+  background-color: rgb(89, 89, 210);
+  text-align: center;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: small;
+  font-weight: 500;
+  padding: 10px;
 }
 
-
-.addImageCard{
-
+.addImageCard {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -206,16 +161,13 @@ background-color: #242424;
   margin-top: 10px;
   margin-bottom: 10px;
   /* height: 50px; */
-  padding:10px;
+  padding: 10px;
   border-radius: 20px;
   background-color: white;
 }
 
-
-.addImageContent{
-
-    font-size: small;
-        font-weight: 400;
-        color: rgb(160, 155, 155);
-     
+.addImageContent {
+  font-size: small;
+  font-weight: 400;
+  color: rgb(160, 155, 155);
 }
